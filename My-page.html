@@ -1,13 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mon Site Personnel</title>
+    <link rel="stylesheet" href="Jour-3-HTML/My-page.css">
 </head>
-<h1>Hello World</h1>
 <body>
-    <h2>This is my CV</h2>
-    <p>Here you will learn more about me, who I am and what I do.</p>
+
+    <!-- En-tête de la page -->
+    <header>
+        <h1>Bienvenue sur mon site personnel</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenu principal -->
+    <main>
+        <!-- Section Accueil -->
+        <section id="home">
+            <h2>Accueil</h2>
+            <p>Bienvenue! Ceci est la page d'accueil de mon site.</p>
+        </section>
+
+        <!-- Section À propos -->
+        <section id="about">
+            <h2>À propos</h2>
+            <article>
+                <h3>Mon parcours</h3>
+                <p>Voici un aperçu de mon parcours professionnel et personnel.</p>
+            </article>
+        </section>
+
+        <!-- Section Portfolio -->
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <article>
+                <h3>Projet 1</h3>
+                <p>Description du projet 1.</p>
+            </article>
+            <article>
+                <h3>Projet 2</h3>
+                <p>Description du projet 2.</p>
+            </article>
+        </section>
+
+        <!-- Section Contact -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Vous pouvez me contacter via le formulaire ci-dessous.</p>
+            <!-- Formulaire de contact -->
+        </section>
+    </main>
+
+    <!-- Informations supplémentaires -->
+    <aside>
+        <h3>Ressources supplémentaires</h3>
+        <p>Liens ou informations utiles.</p>
+    </aside>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2023 Mon Nom - Tous droits réservés</p>
+    </footer>
+
+    <!-- Exemples multimédias -->
+    <section>
+        <h2>Multimédia</h2>
+
+        <!-- Balise audio -->
+        <audio controls>
+            <source src="mon-audio.mp3" type="audio/mpeg">
+            Votre navigateur ne prend pas en charge la balise audio.
+        </audio>
+
+        <!-- Balise vidéo -->
+        <video controls width="600">
+            <source src="ma-video.mp4" type="video/mp4">
+            Votre navigateur ne prend pas en charge la balise vidéo.
+        </video>
+    </section>
+
 </body>
 </html>
