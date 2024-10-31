@@ -13,19 +13,12 @@ body {
 .navbar {
     display: flex;
     /*justify-content: space-between;*/
-    align-items: center;
+    justify-content: flex-start;
     padding: 20px;
     background-color: teal;
     color: #fff;
 }
 
-.logo a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 24px;
-    font-weight: bold;
-    justify-content: flex-end;
-}
 
 .nav-links {
     list-style: none;
@@ -39,15 +32,24 @@ body {
 .nav-links a {
     text-decoration: none;
     color: #fff;
-    font-size: 18px;
+    font-size: 24px;
+    font-weight: bold;
     transition: color 0.3s ease;
     justify-content: flex-start;
+    align-items: center;
 }
 
 .nav-links a:hover {
     color: #ddd;
 }
-
+.Search {
+    align-items: flex-end;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
 
 
 /* Responsive styles */
