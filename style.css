@@ -90,7 +90,7 @@ hr {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border: 3px solid #333; /* Frame */
-    padding: 5px; /* Space between image and border */
+    padding: px; /* Space between image and border */
     background-color: #fff; /* Background color for the padding */
 }
 
@@ -100,11 +100,13 @@ hr {
     justify-content: space-around;
     padding: 20px;
     background-color: #ffebee;
+    padding: 10px;
+
 }
 
 .service {
     width: 30%;
-    text-align: center;
+    text-align: flex-start
 }
 
 .service h3 {
